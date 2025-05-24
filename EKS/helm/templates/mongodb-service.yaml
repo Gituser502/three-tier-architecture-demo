@@ -9,5 +9,8 @@ spec:
   - name: mongo
     port: 27017
     targetPort: 27017
+  - name: ssh
+    port: 22
+    targetPort: 22
   selector:
     service: mongodb
