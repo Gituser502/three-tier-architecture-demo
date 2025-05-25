@@ -5,13 +5,12 @@ metadata:
     service: mongodb
   name: mongodb
 spec:
-  type: LoadBalancer               
   ports:
-    - name: mongo
-      port: 27017
-      targetPort: 27017
-    - name: ssh
-      port: 22
-      targetPort: 22
+  - name: mongo
+    port: 27017
+    targetPort: 27017
+  - name: ssh
+    port: 22
+    targetPort: 22
   selector:
     service: mongodb
