@@ -42,7 +42,7 @@ dispatch: {}
 mongodb:
   image:
     repo: 985539800745.dkr.ecr.us-east-1.amazonaws.com/robot-shop
-    version: mongo-ubuntu-ssh-5.0.0
+    version: mongo-ubuntu-ssh-5.0.0-20240525
     pullPolicy: Always
 
 mysql: {}
